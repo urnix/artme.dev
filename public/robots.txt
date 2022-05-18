@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lets-dev-it.web.app/sitemap.xml

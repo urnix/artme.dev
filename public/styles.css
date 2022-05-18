@@ -1,0 +1,60 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 28px;
+}
+
+body {
+    background: rgb(37, 201, 71);
+    background: linear-gradient(0deg, rgba(37, 201, 71, 0.8197872899159664) 0%, rgba(66, 249, 255, 0) 47%, rgba(49, 161, 231, 0.836594012605042) 100%);
+}
+
+.block {
+    border-radius: 3px;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    min-height: 80px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.block-1 {
+    min-height: 100px;
+}
+
+.block-1 .block-caption {
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.block-1 .main-photo {
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    height: 100px;
+}
+
+
+.block-caption {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.inline-icon {
+    height: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
